@@ -2,6 +2,7 @@
 
 'use strict';
 
+hexo.config = Object.assign(hexo.config, hexo.config.theme_config);
 hexo.config.markdown = Object.assign({
   render: {},
   plugins: {}
